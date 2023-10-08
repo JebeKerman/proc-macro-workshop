@@ -36,6 +36,8 @@ fn main() {
         bitmask: 0b00011100,
     };
 
+    println!("{:?}", f);
+
     let debug = format!("{:?}", f);
     let expected = r#"Field { name: "F", bitmask: 0b00011100 }"#;
 
